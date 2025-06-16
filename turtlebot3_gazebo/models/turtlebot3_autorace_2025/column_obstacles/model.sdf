@@ -12,52 +12,34 @@
 
     <model name="bollard_2">
       <include>
-        <pose>0.4 0 0.2 0 0 0</pose>
-        <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
-      </include>
-    </model>
-    <model name="bollard_3">
-      <include>
-        <pose>0.4 -0.425 0.2 0 0 0</pose>
+        <pose>0.4 0.175 0.2 0 0 0</pose>
         <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
       </include>
     </model>
 
-    <model name="bollard_4">
-      <include>
-        <pose>0 0.275 0.2 0 0 0</pose>
-        <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
-      </include>
-    </model>
-    <model name="bollard_5">
+    <model name="bollard_3">
       <include>
         <pose>0 0 0.2 0 0 0</pose>
         <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
       </include>
     </model>
 
-    <model name="bollard_6">
+    <model name="bollard_4">
       <include>
         <pose>0 -0.275 0.2 0 0 0</pose>
         <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
       </include>
     </model>
 
-    <model name="bollard_7">
+    <model name="bollard_5">
       <include>
         <pose>-0.4 0.425 0.2 0 0 0</pose>
         <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
       </include>
     </model>
-    <model name="bollard_8">
+    <model name="bollard_6">
       <include>
-        <pose>-0.4 0 0.2 0 0 0</pose>
-        <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
-      </include>
-    </model>
-    <model name="bollard_9">
-      <include>
-        <pose>-0.4 -0.425 0.2 0 0 0</pose>
+        <pose>-0.4 0.175 0.2 0 0 0</pose>
         <uri>model://turtlebot3_autorace_2025/column_obstacles/bollard</uri>
       </include>
     </model>

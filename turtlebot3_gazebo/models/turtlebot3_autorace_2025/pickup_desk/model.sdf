@@ -13,7 +13,7 @@
         <material>
             <pbr>
               <metal>
-                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/mcdonald.png</albedo_map>
+                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/burger.png</albedo_map>
               </metal>
             </pbr>
           <ambient>1 1 1 1</ambient>
@@ -80,7 +80,7 @@
         <material>
             <pbr>
               <metal>
-                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/domino.png</albedo_map>
+                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/pizza.png</albedo_map>
               </metal>
             </pbr>
           <ambient>1 1 1 1</ambient>
@@ -146,7 +146,7 @@
         <material>
             <pbr>
               <metal>
-                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/kfc.png</albedo_map>
+                <albedo_map>model://turtlebot3_autorace_2025/pickup_desk/materials/textures/chicken.png</albedo_map>
               </metal>
             </pbr>
           <ambient>1 1 1 1</ambient>

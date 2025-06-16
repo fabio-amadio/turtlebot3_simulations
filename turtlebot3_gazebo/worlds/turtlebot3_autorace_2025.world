@@ -82,7 +82,7 @@
     </include>
 
     <include>
-      <pose>-0.85 1.5 0 0 0 0</pose>
+      <pose>-0.8 1.5 0 0 0 0</pose>
       <uri>model://turtlebot3_autorace_2025/order_panel</uri>
     </include>
 
