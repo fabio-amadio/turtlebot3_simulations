@@ -10,18 +10,15 @@
       <uri>model://sun</uri>
     </include>
     
-    <!-- ===================== -->
-    <!-- Central wall obstacle -->
-    <!-- ===================== -->
-    <model name="central_wall">
+    <model name="wall_0">
       <static>true</static>
-      <pose>0 0.75 0.25 0 0 0</pose>
+      <pose>0 1.0 0.25 0 0 0</pose>
 
       <link name="wall_link">
         <collision name="collision">
           <geometry>
             <box>
-              <size>1.0 0.1 0.5</size>
+              <size>1.2 0.1 0.5</size>
             </box>
           </geometry>
         </collision>
@@ -29,7 +26,7 @@
         <visual name="visual">
           <geometry>
             <box>
-              <size>1.0 0.1 0.5</size>
+              <size>1.2 0.1 0.5</size>
             </box>
           </geometry>
           <material>
@@ -39,6 +36,61 @@
         </visual>
       </link>
     </model>
+    
+    <model name="wall_1">
+      <static>true</static>
+      <pose>1.5 -1.1 0.15 0 0 1.5708</pose>
+
+      <link name="wall_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>2.0 0.1 0.3</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>2.0 0.1 0.3</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="wall_2">
+      <static>true</static>
+      <pose>-2 -1.2 0.2 0 0 -1.0</pose>
+
+      <link name="wall_link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>1.5 0.1 0.4</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>1.5 0.1 0.3</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+    
 
     <scene>
       <shadows>false</shadows>
